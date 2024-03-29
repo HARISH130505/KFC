@@ -1,0 +1,360 @@
+.main{
+    background-color:crimson;
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:5px;
+    width:100%;
+
+}
+.fa-facebook{
+   font-size: 25px;
+   padding-left:20px;
+}
+.fa-twitter{
+    font-size: 25px;
+    padding-left:20px;
+ }
+.fa-instagram{
+    font-size: 25px;
+    padding-left:20px;
+ }
+.fa-whatsapp{
+    font-size: 25px;
+    padding-left:20px;
+ }
+.fa-phone-volume{
+    font-size: 25px;
+ }
+ .n{
+    display:inline;
+    font-size: 25px;
+    cursor: pointer;
+    padding-left:20px;
+ }
+ .fa-location-dot{
+    font-size: 25px;
+   
+ }
+ .l{
+   display:inline;
+   font-size: 25px;
+   cursor:pointer;
+   padding-left: 90%;
+ }
+.n:hover{
+   color: aliceblue;
+   text-decoration: underline;
+}
+.l:hover{
+   color: aliceblue;
+   text-decoration: underline;
+}
+hr{
+   border-style:solid;
+   border-radius: 10px;
+   border-color: aliceblue;
+}
+.info{
+      font-family: "Concert One", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    
+ul{
+   display:inline;
+   padding:0px;
+}
+li{
+   display: inline;
+   font-size: 25px;
+   padding-left: 20px;
+   color:aliceblue;
+}
+.kfc{
+   width:50px;
+   height:50px;
+   display:inline;
+   padding-left:80px;
+   padding-top:20px;
+}
+.fa-cart-shopping{
+   display:inline;
+   font-size: 25px;
+   padding-left: 400px;
+   color:aliceblue;
+}
+.a{
+   display:inline;
+   font-size: 25px;
+   padding-left:20px;
+   color:aliceblue;
+}
+.s{
+   display:inline;
+   font-size: 25px;
+   padding-left:20px;
+   color:aliceblue;
+}
+.front{
+   text-align: center;
+}
+.k{
+      font-family: "Delicious Handrawn", cursive;
+      font-weight: 400;
+      position:relative;
+      font-size: 60px;
+      color: aliceblue;
+    }
+.f{
+      font-family: "Madimi One", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      position:relative;
+      font-size: 50px;
+      line-height:0px;
+      left:20px;
+      top:-25px;
+      color:black;
+    }
+.b{
+      font-family: "Farsan", cursive;
+      font-weight: 400;
+      font-style: normal;
+      position:relative;
+      font-size: 40px;
+      line-height: 0px;
+      top:-45px;
+      left:20px;
+      color:aliceblue;
+    }
+.c{
+   height:800px;
+   width:800px;
+}
+.x{
+   display: flex;
+   flex-wrap: wrap;
+   flex-basis: 20%;
+   justify-content:space-evenly;
+}
+.r{
+   font-size: 40px;
+   font-family: "Concert One", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   width:500px;
+   
+}
+.fa-indian-rupee-sign{
+   font-size: 60px;
+}
+.od{
+    text-align: center;
+    border-style: solid;
+    border-color: aliceblue;
+    border-width:5px;
+    width:fit-content;
+    margin-left: 130px;
+    font-size: 30px;
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:aliceblue;
+    cursor: pointer;
+    position: relative;
+    top:-250px;
+    padding:20px;
+}
+.od:hover{
+   background-color: black;
+}
+.cont{
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:50px;
+    width:100%;
+    margin-top:50px;
+    background-color: white;
+}
+.offers{
+   display: flex;
+   flex-wrap: wrap;
+   flex-basis: 20%;
+   justify-content:space-evenly;
+}
+.deal{
+       width:200px;
+       font-size: 30px;
+       font-family: "Delicious Handrawn", cursive;
+       font-weight: 400;
+}
+.d{
+   color: red;
+}
+.pcs{
+   text-align: center;
+   font-size: 30px;
+   font-family:"Concert One", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   
+}
+.box{
+   border-width: 5px;
+   border-color: crimson;
+   border-style: solid;
+   
+}
+.big{
+   border-width: 5px;
+   border-color: crimson;
+   border-style: solid;
+   
+}
+.bur{
+   border-width: 5px;
+   border-color: crimson;
+   border-style: solid;
+   
+}
+.u{
+      font-family:"Concert One", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+}
+.rol{
+   width:400px;
+   height:400px;
+}
+.price{
+   background-color: crimson;
+   color: aliceblue;
+   text-align: center;
+   padding:20px;
+}
+.box:hover{
+   transform: translateY(-30px);
+   background-color:silver;
+}
+.big:hover{
+   transform: translateY(-30px);
+   background-color:silver;
+}
+.bur:hover{
+   transform: translateY(-30px);
+   background-color:silver;
+}
+.ot{
+   display: flex;
+   flex-wrap: wrap;
+   flex-basis: 20%;
+   justify-content:space-evenly;
+}
+.pics{
+   margin:20px;
+}
+.subs{
+   width:fit-content;
+   display: flex;
+   flex-wrap: wrap;
+   flex-basis: 20%;
+   justify-content:space-evenly;
+   background-color: crimson;
+   margin-left:230px;
+   
+}
+.su{
+   font-size: 30px;
+   font-family:"Concert One", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   padding:20px;
+}
+.na{
+     margin:20px;
+}
+input{
+   background-color: crimson;
+   color:white;
+   border-color: aliceblue;
+   border-radius: 4px;
+   padding:10px;
+}
+.em{
+   margin:20px;
+}
+.sus{
+   border-radius: 4px;
+   background-color: aliceblue;
+   color:crimson;
+   font-family:"Concert One", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   padding:10px;
+   margin:20px;
+}
+.end{
+   display: flex;
+   flex-wrap: wrap;
+   flex-basis: 20%;
+   justify-content:space-evenly;
+   background-color: silver;
+   width:100%;
+}
+.m{
+   font-size: 20px;
+   font-family:"Concert One", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   margin:20px;
+   color: crimson;
+   padding:20px;
+}
+.one{
+   width:400px;
+   height:400px;
+}
+.two{
+   width:200px;
+   height:200px;
+   text-align: center;
+}
+.three{
+   width:200px;
+   height:200px;
+   text-align: center;
+}
+.four{
+   width:200px;
+   height:200px;
+   text-align: center;
+}
+.five{
+   width:200px;
+   height:200px;
+   text-align: center;}
+
+.q{
+   padding:20px;
+   color:black;
+}
+.bye{
+   background-color: black;
+   color:white;
+   
+}
+.fi{
+   display: inline;
+   padding:20px;
+
+}
+.pr{
+   display: inline;
+   padding-left:65%;
+   
+}
+.ts{
+   display: inline;
+   padding-left: 15px;
+   
+}
