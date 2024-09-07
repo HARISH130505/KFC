@@ -1,14 +1,19 @@
+.head{
+   background-color: crimson;
+}
 .main{
-    background-color:crimson;
     padding-left:5px;
     padding-right:5px;
     padding-top:5px;
     width:100%;
-
+}
+.header{
+   display: flex;
+   justify-content: space-between;
+   padding:10px;
 }
 .fa-facebook{
    font-size: 25px;
-   padding-left:20px;
 }
 .fa-twitter{
     font-size: 25px;
@@ -31,23 +36,13 @@
     cursor: pointer;
     padding-left:20px;
  }
- .fa-location-dot{
-    font-size: 25px;
-   
- }
- .l{
-   display:inline;
-   font-size: 25px;
-   cursor:pointer;
-   padding-left: 90%;
- }
+
 .n:hover{
    color: aliceblue;
    text-decoration: underline;
 }
-.l:hover{
-   color: aliceblue;
-   text-decoration: underline;
+.fa-location-dot{
+    font-size: 35px;
 }
 hr{
    border-style:solid;
@@ -58,42 +53,26 @@ hr{
       font-family: "Concert One", sans-serif;
       font-weight: 400;
       font-style: normal;
-    }
-    
-ul{
-   display:inline;
-   padding:0px;
+      font-size: 25px;
+      display: flex;
+      justify-content: space-between;
+      color:aliceblue;
 }
-li{
-   display: inline;
-   font-size: 25px;
-   padding-left: 20px;
-   color:aliceblue;
+.more{
+   display: flex;
+}
+.fa-cart-shopping{
+   padding:10px;
+}
+.a{
+   padding:10px;
+   margin-right:10px;
 }
 .kfc{
    width:50px;
    height:50px;
-   display:inline;
-   padding-left:80px;
-   padding-top:20px;
-}
-.fa-cart-shopping{
-   display:inline;
-   font-size: 25px;
-   padding-left: 400px;
-   color:aliceblue;
-}
-.a{
-   display:inline;
-   font-size: 25px;
-   padding-left:20px;
-   color:aliceblue;
-}
-.s{
-   display:inline;
-   font-size: 25px;
-   padding-left:20px;
-   color:aliceblue;
+   margin-right: 250px;
+   margin-top: 20px;
 }
 .front{
    text-align: center;
@@ -178,9 +157,10 @@ li{
 }
 .offers{
    display: flex;
-   flex-wrap: wrap;
    flex-basis: 20%;
-   justify-content:space-evenly;
+   justify-content: space-around;
+   align-items: center;
+   flex-wrap: wrap;
 }
 .deal{
        width:200px;
@@ -203,19 +183,35 @@ li{
    border-width: 5px;
    border-color: crimson;
    border-style: solid;
+   flex-basis: 20%;
    
 }
 .big{
    border-width: 5px;
    border-color: crimson;
    border-style: solid;
+   flex-basis: 20%;
    
 }
 .bur{
    border-width: 5px;
    border-color: crimson;
    border-style: solid;
-   
+   flex-basis: 20%;
+}
+@media screen and (max-width:1000px) {
+   .box{
+      flex-basis: 40%;
+      padding:10px;
+   }
+   .big{
+      flex-basis: 40%;
+      padding:10px;
+   }
+   .bur{
+      flex-basis: 40%;
+      padding:10px;
+   }
 }
 .u{
       font-family:"Concert One", sans-serif;
@@ -225,6 +221,7 @@ li{
 .rol{
    width:400px;
    height:400px;
+   object-fit: contain;
 }
 .price{
    background-color: crimson;
@@ -247,11 +244,16 @@ li{
 .ot{
    display: flex;
    flex-wrap: wrap;
-   flex-basis: 20%;
    justify-content:space-evenly;
 }
 .pics{
    margin:20px;
+   flex-basis: 20%;
+}
+@media screen and (max-width:600px) {
+   .pics{
+      flex-basis: 40%;
+   }
 }
 .subs{
    width:fit-content;
